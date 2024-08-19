@@ -9,8 +9,12 @@ import { initFlowbite } from 'flowbite';
 })
 export class AppComponent implements OnInit {
   title = 'kraken';
-
+  isLoading: boolean = true;
   ngOnInit(): void {
     initFlowbite();
+
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 200);
   }
 }
