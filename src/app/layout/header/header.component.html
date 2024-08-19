@@ -15,7 +15,7 @@
             Terms of Service
           </h3>
           <button type="button"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+            class="inline-flex items-center justify-center w-8 h-8 ml-auto text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
             data-modal-hide="defaultModal">
             <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -51,37 +51,323 @@
   </div>
 </ng-container> -->
 
-
 <div class="bg-[#7132f5] w-full h-[100px] fixed top-0 left-0 z-50">
-  <div class="w-full h-full flex justify-between items-center px-10">
+  <div class="flex items-center justify-between w-full h-full px-10">
     <div class="flex gap-20">
-      <div>
-        <a routerLink="/" class="flex justify-center items-center">
-          <img src="/assets/images/logo.svg" class="w-36" alt="kraken">
+      <div class="flex items-center">
+        <a routerLink="/" class="flex items-center justify-center">
+          <img src="/assets/images/logo.svg" class="w-36" alt="kraken" />
         </a>
       </div>
       <div>
         <ul class="flex gap-8">
-          <li>
+          <li class="relative py-3 submenu">
             <a href="###"
-              class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Khám
-              phá</a>
+              class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">
+              Khám phá
+              <div class="absolute left-0 top-0 perspective translate-x-[-100px] py-[4.5rem]">
+                <div class="flex w-[1000px] shadow-xl rounded-xl relative">
+                  <div class="absolute triangle"></div>
+                  <div class="w-2/3 p-2 bg-white rounded-s-lg">
+                    <ul class="grid grid-cols-2 gap-2 m-2">
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/aa1f76783d3090a160a4bd42200a231d78089e43-48x48.svg"
+                            class="kraken-image-svg" alt="Buy Crypto" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">
+                              Mua tiền điện tử
+                            </p>
+                            <p class="text-gray-400">
+                              Bắt đầu chỉ với 10 đô la
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/61fd63a15c71c30a8e1f37fe6ec1328420b4797c-48x48.svg"
+                            class="kraken-image-svg" alt="Kraken Pro" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">Kraken Pro</p>
+                            <p class="text-gray-400">Giao dịch nâng cao</p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/aa2ba8e1aac714ec4f37833df8cfe8aa68424763-48x48.svg"
+                            class="kraken-image-svg" alt="Trade NFTs" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">Giao dịch NFT</p>
+                            <p class="text-gray-400">Không tính phí gas</p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/4433ce73049f6f319322813c42dc6e97f297b79f-48x48.svg"
+                            class="kraken-image-svg" alt="Margin Trading" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">
+                              Giao dịch ký quỹ
+                            </p>
+                            <p class="text-gray-400">
+                              Giao dịch với đòn bẩy 5 lần
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/822efabb97779356165f98dffbff2d02c78d4173-48x48.svg"
+                            class="kraken-image-svg" alt="Earn Rewards" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">
+                              Kiếm phần thưởng
+                            </p>
+                            <p class="text-gray-400">Lên đến hơn 10% APR</p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/a572ad06f871852588101869df0ca744a7d747c6-48x48.svg"
+                            class="kraken-image-svg" alt="Futures Trading" loading="lazy" />
+                          <div>
+                            <p class="font-medium text-black">
+                              Giao dịch hợp đồng tương lai
+                            </p>
+                            <p class="text-gray-400">
+                              Hơn 100 hợp đồng nhiều tài sản thế chấp
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/ee33fe824ee87d78bd9d57c5bc72c3c973f717bb-48x48.svg"
+                            class="kraken-image-svg" alt="Kraken Wallet" loading="lazy">
+                          <div>
+                            <p class="font-medium text-black">Kraken Wallet</p>
+                            <p class="text-gray-400">
+                              Hộ chiếu của bạn onchain
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="bg-[#f7f7f7] py-5 pl-7 pr-10 w-1/3 rounded-e-lg">
+                    <p class="font-medium text-black">Tổ chức</p>
+                    <ul class="fc-db0cec94-11">
+                      <li class="mt-2">
+                        <a href="/vi-vn/institutions/custody" class="flex items-center gap-3 group">
+                          <span class="inline-block group-hover:hidden">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/107e378310dc13f1e33bb0e655c01314812bce55-20x20.svg"
+                              class="kraken-image-svg" alt="Custody" loading="lazy" /></span>
+                          <span class="hidden group-hover:block">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/8b889c6a202422589f08d7997b0117972710e974-20x20.svg"
+                              class="kraken-image-svg" alt="Custody" loading="eager" /></span>
+                          <span class="text-black">Lưu ký</span></a>
+                      </li>
+                      <li class="mt-2">
+                        <a href="/vi-vn/institutions/otc" class="flex items-center gap-3 group"><span
+                            class="inline-block group-hover:hidden">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/911ec4d54e25788e8f9d475f7ae084b296ed0ea0-20x20.svg"
+                              class="kraken-image-svg" alt="OTC" loading="lazy" /></span>
+                          <span class="hidden group-hover:block">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/41e15548d31eff8ffb61f84467307a77e2bd8b9b-20x20.svg"
+                              class="kraken-image-svg" alt="OTC" loading="eager" /></span>
+                          <span class="text-black">OTC</span></a>
+                      </li>
+                      <li class="mt-2">
+                        <a href="/vi-vn/institutions/spot" class="flex items-center gap-3 group"><span
+                            class="inline-block group-hover:hidden">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/00b2ab3359bba83438ebc032de5443682d27d98d-20x20.svg"
+                              class="kraken-image-svg" alt="Spot" loading="lazy" /></span>
+                          <span class="hidden group-hover:block">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/322ddf0d6bdc3bbd67dfb3248d39a74049a8e1fe-20x20.svg"
+                              class="kraken-image-svg" alt="Spot" loading="eager" /></span>
+                          <span class="text-black">Giao dịch giao ngay</span></a>
+                      </li>
+                      <li class="mt-2">
+                        <a href="/vi-vn/institutions/futures" class="flex items-center gap-3 group">
+                          <span class="inline-block group-hover:hidden">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/701b074d4d7ea2774767e9a35d2d5dff33bb037c-20x20.svg"
+                              class="kraken-image-svg" alt="Futures" loading="lazy" /></span>
+                          <span class="hidden group-hover:block">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/5798430dcbea5b3537b1c2d0ef22ba8326bfe745-20x20.svg"
+                              class="kraken-image-svg" alt="Futures" loading="eager" /></span>
+                          <span class="text-black">Hợp đồng tương lai</span></a>
+                      </li>
+                      <li class="mt-2">
+                        <a href="/vi-vn/institutions/staking" class="flex items-center gap-3 group"><span
+                            class="inline-block group-hover:hidden">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/3efee8c6922bcb38b4dbf72d867b5591a15c643f-20x20.svg"
+                              class="kraken-image-svg" alt="Staking" loading="lazy" /></span>
+                          <span class="hidden group-hover:block">
+                            <img
+                              src="https://assets-cms.kraken.com/images/51n36hrp/facade/b2e1572d802880c8ab76d668539aec1728116dcd-20x20.svg"
+                              class="kraken-image-svg" alt="Staking" loading="eager" /></span>
+                          <span class="text-black">Staking</span></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </a>
           </li>
-          <li>
+          <li class="relative py-3">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Giá</a>
           </li>
-          <li>
+          <li class="relative py-3 submenu">
             <a href="###"
-              class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Tại
-              sao nên chọn Kraken?</a>
+              class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">
+              Tại sao nên chọn Kraken?
+              <div class="absolute left-0 top-0 perspective translate-x-[-100px] py-[4.5rem]">
+                <div class="flex w-[700px] shadow-xl rounded-xl relative">
+                  <div class="absolute triangle"></div>
+                  <div class="w-full p-2 bg-white rounded-s-lg rounded-e-lg">
+                    <ul class="grid grid-cols-2 gap-2 m-2">
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/ed37dd52907ccc42514d6e30655e32b87df7b482-20x20.svg"
+                            class="kraken-image-svg" alt="Industry-leading security" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">
+                              Bảo mật hàng đầu trong ngành
+                            </p>
+                            <p class="text-gray-400">
+                              Cách chúng tôi bảo vệ tiền của bạn
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/512fa12dd22d3bbd8b373e07503f3bf4868ebac6-20x20.svg"
+                            class="kraken-image-svg" alt="24-7 customer service" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">Dịch vụ khách hàng 24-7</p>
+                            <p class="text-gray-400">Nhận trợ giúp bất cứ khi nào bạn cần</p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/7d9ae59840c09343743d60284ed7984cef199d6b-20x20.svg"
+                            class="kraken-image-svg" alt="Deep liquidity and volume" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">Thanh khoản sâu và khối lượng</p>
+                            <p class="text-gray-400">Giúp bạn tối đa hoá lợi nhuận</p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/67144f0793c15e53893e195cdedeab7dacbbc5ff-20x20.svg"
+                            class="kraken-image-svg" alt="Mission-driven values" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">
+                              Giá trị định hướng sứ mệnh
+                            </p>
+                            <p class="text-gray-400">
+                              Cách chúng tôi có được sự tin tưởng từ bạn
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/b2c63ba6c246b153092b0a2e367247c98f033c1e-20x20.svg"
+                            class="kraken-image-svg" alt="Proof of reserves" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">
+                              Bằng chứng dự trữ
+                            </p>
+                            <p class="text-gray-400">
+                              Cam kết minh bạch của chúng tôi
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                      <li class="w-full">
+                        <a href="###"
+                          class="flex items-center gap-3 w-full py-3 px-1 border-b border-[#f5f5f5] border-solid rounded-lg hover:bg-[#f9f8ff]">
+                          <img
+                            src="https://assets-cms.kraken.com/images/51n36hrp/facade/9b6fa857ddccff256a687d5d3a6a4e221bb4083f-20x20.svg"
+                            class="kraken-image-svg" alt="Flexible funding options" loading="eager">
+                          <div>
+                            <p class="font-medium text-black">
+                              Tuỳ chọn nạp tiền linh hoạt
+                            </p>
+                            <p class="text-gray-400">
+                              Tiền mặt, thẻ, tiền điện tử và hơn thế nữa
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </a>
           </li>
-          <li>
+          <li class="relative py-3">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Tìm
               hiểu</a>
           </li>
-          <li>
+          <li class="relative py-3">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Hỗ
               trợ</a>
@@ -96,7 +382,7 @@
           class="ms-ds-0 me-ds-0 mt-ds-0 mb-ds-0 stroke-ds-icon w-ds-icon-md h-ds-icon-md">
           <path
             d="M21 12C21 16.9706 16.9706 21 12 21M21 12C21 7.02944 16.9706 3 12 3M21 12H3M12 21C7.02944 21 3 16.9706 3 12M12 21C9.79086 21 8 16.9706 8 12C8 7.02944 9.79086 3 12 3M12 21C14.2091 21 16 16.9706 16 12C16 7.02944 14.2091 3 12 3M3 12C3 7.02944 7.02944 3 12 3"
-            stroke-linecap="square" class="fill-transparent stroke-current stroke-2"></path>
+            stroke-linecap="square" class="stroke-current stroke-2 fill-transparent"></path>
         </svg>
       </div>
       <div>
@@ -111,5 +397,4 @@
       </div>
     </div>
   </div>
-
 </div>

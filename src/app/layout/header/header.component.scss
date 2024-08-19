@@ -1,0 +1,46 @@
+.perspective {
+  perspective: 2000px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s linear;
+  > div {
+    transform-origin: 50% -50px;
+    transform: rotateX(-25deg);
+    will-change: transform, width, height;
+    transition: 0.2s linear;
+  }
+
+  .triangle {
+    top: -79px;
+    left: 140px;
+    width: 43px;
+    height: 43px;
+    opacity: 1;
+    z-index: 2;
+    position: absolute;
+    clip-path: polygon(0% 75%, 50% 10%, 100% 75%);
+    transform: translate(-50%, 26px);
+    margin-top: 22px;
+    background-color: #ffffff;
+    transition-delay: 0.1s, 0;
+    transition-duration: 0.25s;
+  }
+}
+
+.submenu {
+  &:hover .perspective {
+    perspective: 2000px;
+    opacity: 1;
+    animation: identifier 1s linear forwards;
+
+    > div {
+      transform: rotateX(0deg);
+    }
+  }
+}
+
+@keyframes identifier {
+  to {
+    visibility: visible;
+  }
+}
