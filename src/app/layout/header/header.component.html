@@ -1,23 +1,15 @@
-<!-- <ng-container>
-  <button data-modal-target="defaultModal" data-modal-toggle="defaultModal"
-    class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-    type="button">
-    Toggle modal
-  </button>
-
-
+<ng-container>
   <div id="defaultModal" tabindex="-1" aria-hidden="true"
-    class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-    <div class="relative w-full max-w-2xl max-h-full">
-      <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-        <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
-          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
-            Terms of Service
-          </h3>
+    class="fixed top-0 left-0 right-0 z-50 hidden w-full h-full p-2.5 overflow-x-hidden overflow-y-auto md:inset-0 max-h-full bg-[#7132f5]">
+    <div class="relative w-full h-full max-w-full max-h-full overflow-hidden rounded-lg shadow">
+      <div class="relative h-full overflow-x-hidden overflow-y-auto bg-white">
+        <div class="flex items-start justify-between p-4 rounded-t">
+          <p class="text-[#000081] text-base font-semibold relative top-2">Khám phá</p>
+
           <button type="button"
-            class="inline-flex items-center justify-center w-8 h-8 ml-auto text-sm text-gray-400 bg-transparent rounded-lg hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+            class="inline-flex items-center justify-center w-8 h-8 ml-auto text-sm text-black bg-transparent rounded-lg"
             data-modal-hide="defaultModal">
-            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
             </svg>
@@ -25,34 +17,190 @@
           </button>
         </div>
 
-        <div class="p-6 space-y-6">
-          <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            With less than a month to go before the European Union enacts new consumer privacy laws for its citizens,
-            companies around the world are updating their terms of service agreements to comply.
-          </p>
-          <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant
-            to
-            ensure a common set of data rights in the European Union. It requires organizations to notify users as soon
-            as
-            possible of high-risk data breaches that could personally affect them.
-          </p>
+        <div>
+          <div>
+
+            <ul class="columns-2">
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium" href="/vi-vn/sign-up"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/aa1f76783d3090a160a4bd42200a231d78089e43-48x48.svg"
+                      class="kraken-image-svg" alt="Buy Crypto" loading="lazy"></span>Mua tiền điện tử</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium"
+                  href="https://pro.kraken.com/app/trade/btc-usd"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/61fd63a15c71c30a8e1f37fe6ec1328420b4797c-48x48.svg"
+                      class="kraken-image-svg" alt="Kraken Pro" loading="lazy"></span>Kraken Pro</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium" href="https://nft.kraken.com"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/aa2ba8e1aac714ec4f37833df8cfe8aa68424763-48x48.svg"
+                      class="kraken-image-svg" alt="Trade NFTs" loading="lazy"></span>Giao dịch NFT</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium"
+                  href="https://pro.kraken.com/app/trade/margin-btc-usd"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/4433ce73049f6f319322813c42dc6e97f297b79f-48x48.svg"
+                      class="kraken-image-svg" alt="Margin Trading" loading="lazy"></span>Giao dịch ký quỹ</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium" href="/vi-vn/features/rewards"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/822efabb97779356165f98dffbff2d02c78d4173-48x48.svg"
+                      class="kraken-image-svg" alt="Earn Rewards" loading="lazy"></span>Kiếm phần thưởng</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium"
+                  href="https://pro.kraken.com/app/trade/futures-btc-usd-perp"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/a572ad06f871852588101869df0ca744a7d747c6-48x48.svg"
+                      class="kraken-image-svg" alt="Futures Trading" loading="lazy"></span> Giao dịch hợp đồng tương
+                  lai</a></li>
+              <li class="flex items-center border-b-[1px] border-[#F5F5F5] border-solid"><a
+                  class="inline-flex w-full p-3 text-[13px] font-medium" href="/vi-vn/wallet"><span
+                    class="inline-block w-5 h-5 mr-2 kraken-image-svg"><img
+                      src="https://assets-cms.kraken.com/images/51n36hrp/facade/ee33fe824ee87d78bd9d57c5bc72c3c973f717bb-48x48.svg"
+                      class="kraken-image-svg" alt="Kraken Wallet" loading="lazy"></span>Kraken Wallet</a></li>
+            </ul>
+
+            <div class="flex gap-5 px-3 py-5">
+              <div class="flex flex-wrap">
+                <a href="###"
+                  class="bg-[#8853f7] hover:bg-[#5b1ecf] rounded-full flex justify-center items-center text-white font-medium px-7 py-3 border-white border-[1px] whitespace-nowrap shadow-btn">Đăng
+                  ký
+                </a>
+              </div>
+              <div>
+                <a href="###"
+                  class="rounded-full flex justify-center items-center hover:bg-[#eee6fe] bg-white text-[#7132f5] font-medium px-7 py-3 border-current border-[1px] whitespace-nowrap">
+                  Đăng nhập
+                </a>
+              </div>
+              <div>
+                <button class="flex items-center justify-center h-full text-white" data-modal-target="defaultModal"
+                  data-modal-toggle="defaultModal">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                    stroke="currentColor" class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="bg-[#f7f7f7] py-5 pl-7 pr-10 w-full rounded-e-lg">
+              <p class="font-medium text-black">Tổ chức</p>
+              <ul class="grid grid-cols-2 gap-3">
+                <li class="mt-2">
+                  <a href="/vi-vn/institutions/custody" class="flex items-center gap-3 group text-[13px] font-medium">
+                    <span class="inline-block group-hover:hidden">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/107e378310dc13f1e33bb0e655c01314812bce55-20x20.svg"
+                        class="kraken-image-svg" alt="Custody" loading="lazy" /></span>
+                    <span class="hidden group-hover:block">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/8b889c6a202422589f08d7997b0117972710e974-20x20.svg"
+                        class="kraken-image-svg" alt="Custody" loading="eager" /></span>
+                    <span class="text-black">Lưu ký</span></a>
+                </li>
+                <li class="mt-2">
+                  <a href="/vi-vn/institutions/futures" class="flex items-center gap-3 group text-[13px] font-medium">
+                    <span class="inline-block group-hover:hidden">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/701b074d4d7ea2774767e9a35d2d5dff33bb037c-20x20.svg"
+                        class="kraken-image-svg" alt="Futures" loading="lazy" /></span>
+                    <span class="hidden group-hover:block">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/5798430dcbea5b3537b1c2d0ef22ba8326bfe745-20x20.svg"
+                        class="kraken-image-svg" alt="Futures" loading="eager" /></span>
+                    <span class="text-black">Hợp đồng tương lai</span></a>
+                </li>
+                <li class="mt-2">
+                  <a href="/vi-vn/institutions/otc" class="flex items-center gap-3 group text-[13px] font-medium"><span
+                      class="inline-block group-hover:hidden">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/911ec4d54e25788e8f9d475f7ae084b296ed0ea0-20x20.svg"
+                        class="kraken-image-svg" alt="OTC" loading="lazy" /></span>
+                    <span class="hidden group-hover:block">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/41e15548d31eff8ffb61f84467307a77e2bd8b9b-20x20.svg"
+                        class="kraken-image-svg" alt="OTC" loading="eager" /></span>
+                    <span class="text-black">OTC</span></a>
+                </li>
+                <li class="mt-2">
+                  <a href="/vi-vn/institutions/staking"
+                    class="flex items-center gap-3 group text-[13px] font-medium"><span
+                      class="inline-block group-hover:hidden">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/3efee8c6922bcb38b4dbf72d867b5591a15c643f-20x20.svg"
+                        class="kraken-image-svg" alt="Staking" loading="lazy" /></span>
+                    <span class="hidden group-hover:block">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/b2e1572d802880c8ab76d668539aec1728116dcd-20x20.svg"
+                        class="kraken-image-svg" alt="Staking" loading="eager" /></span>
+                    <span class="text-black">Staking</span></a>
+                </li>
+                <li class="mt-2">
+                  <a href="/vi-vn/institutions/spot" class="flex items-center gap-3 group text-[13px] font-medium"><span
+                      class="inline-block group-hover:hidden">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/00b2ab3359bba83438ebc032de5443682d27d98d-20x20.svg"
+                        class="kraken-image-svg" alt="Spot" loading="lazy" /></span>
+                    <span class="hidden group-hover:block">
+                      <img
+                        src="https://assets-cms.kraken.com/images/51n36hrp/facade/322ddf0d6bdc3bbd67dfb3248d39a74049a8e1fe-20x20.svg"
+                        class="kraken-image-svg" alt="Spot" loading="eager" /></span>
+                    <span class="text-black">Giao dịch giao ngay</span></a>
+                </li>
+
+
+              </ul>
+            </div>
+
+            <div>
+              <ul>
+                <li class="border-b border-[#F5F5F5]">
+                  <a href="###" class="text-[#000081] p-5 text-base block font-medium">Giá</a>
+                </li>
+
+                <li class="border-b border-[#F5F5F5]">
+                  <a href="###" class="text-[#000081] p-5 text-base block font-medium">Tại sao nên chọn Kraken?</a>
+                </li>
+
+                <li class="border-b border-[#F5F5F5]">
+                  <a href="###" class="text-[#000081] p-5 text-base block font-medium">Tìm hiểu</a>
+                </li>
+
+                <li class="border-b border-[#F5F5F5]">
+                  <a href="###" class="text-[#000081] p-5 text-base block font-medium">Hỗ trợ</a>
+                </li>
+                <li class="border-b border-[#F5F5F5]">
+                  <div class="p-5">
+                    <button type="button"
+                      class="flex items-center w-full p-0 space-x-2 bg-transparent border-none cursor-pointer">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="stroke-2">
+                        <path
+                          d="M21 12C21 16.9706 16.9706 21 12 21M21 12C21 7.02944 16.9706 3 12 3M21 12H3M12 21C7.02944 21 3 16.9706 3 12M12 21C9.79086 21 8 16.9706 8 12C8 7.02944 9.79086 3 12 3M12 21C14.2091 21 16 16.9706 16 12C16 7.02944 14.2091 3 12 3M3 12C3 7.02944 7.02944 3 12 3"
+                          stroke-linecap="square" class="fill-transparent stroke-[#7132f5]"></path>
+                      </svg>
+                      <p class="text-[16px] leading-[22px] font-medium text-ds-purple-900">
+                        VI</p>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+          </div>
         </div>
 
-        <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-          <button data-modal-hide="defaultModal" type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I
-            accept</button>
-          <button data-modal-hide="defaultModal" type="button"
-            class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
-        </div>
       </div>
     </div>
   </div>
-</ng-container> -->
+</ng-container>
 
-<div class="bg-[#7132f5] w-full h-20 xl:h-[100px] fixed top-0 left-0 z-50">
-  <div class="flex items-center justify-between w-full h-full px-10">
+<div class="bg-[#7132f5] w-full h-20 xl:h-[100px] fixed top-0 left-0 z-40">
+  <div class="flex items-center justify-between w-full h-full px-6">
     <div class="flex gap-3 md:gap-10 xl:gap-20">
       <div class="flex items-center">
         <a routerLink="/" class="flex items-center justify-center">
@@ -181,7 +329,7 @@
 
                   <div class="bg-[#f7f7f7] py-5 pl-7 pr-10 w-1/3 rounded-e-lg">
                     <p class="font-medium text-black">Tổ chức</p>
-                    <ul class="fc-db0cec94-11">
+                    <ul class="">
                       <li class="mt-2">
                         <a href="/vi-vn/institutions/custody" class="flex items-center gap-3 group">
                           <span class="inline-block group-hover:hidden">
@@ -396,7 +544,8 @@
           ký</a>
       </div>
       <div>
-        <button class="flex items-center justify-center h-full text-white">
+        <button class="flex items-center justify-center h-full text-white xl:hidden" data-modal-target="defaultModal"
+          data-modal-toggle="defaultModal">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
             class="size-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
