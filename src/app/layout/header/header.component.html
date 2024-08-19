@@ -51,21 +51,21 @@
   </div>
 </ng-container> -->
 
-<div class="bg-[#7132f5] w-full h-[100px] fixed top-0 left-0 z-50">
+<div class="bg-[#7132f5] w-full h-20 xl:h-[100px] fixed top-0 left-0 z-50">
   <div class="flex items-center justify-between w-full h-full px-10">
-    <div class="flex gap-20">
+    <div class="flex gap-3 md:gap-10 xl:gap-20">
       <div class="flex items-center">
         <a routerLink="/" class="flex items-center justify-center">
-          <img src="/assets/images/logo.svg" class="w-36" alt="kraken" />
+          <img src="/assets/images/logo.svg" class="w-36 min-w-20" alt="kraken" />
         </a>
       </div>
       <div>
-        <ul class="flex gap-8">
-          <li class="relative py-3 submenu">
+        <ul class="hidden gap-8 xl:flex">
+          <li class="relative py-3 submenu whitespace-nowrap">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">
               Khám phá
-              <div class="absolute left-0 top-0 perspective translate-x-[-100px] py-[4.5rem]">
+              <div class="absolute left-0 top-6 perspective translate-x-[-100px] pt-12">
                 <div class="flex w-[1000px] shadow-xl rounded-xl relative">
                   <div class="absolute triangle"></div>
                   <div class="w-2/3 p-2 bg-white rounded-s-lg">
@@ -248,15 +248,15 @@
               </div>
             </a>
           </li>
-          <li class="relative py-3">
+          <li class="relative py-3 whitespace-nowrap">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Giá</a>
           </li>
-          <li class="relative py-3 submenu">
+          <li class="relative py-3 submenu whitespace-nowrap">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">
               Tại sao nên chọn Kraken?
-              <div class="absolute left-0 top-0 perspective translate-x-[-100px] py-[4.5rem]">
+              <div class="absolute left-0 top-6 perspective translate-x-[-100px] pt-12">
                 <div class="flex w-[700px] shadow-xl rounded-xl relative">
                   <div class="absolute triangle"></div>
                   <div class="w-full p-2 bg-white rounded-s-lg rounded-e-lg">
@@ -362,12 +362,12 @@
               </div>
             </a>
           </li>
-          <li class="relative py-3">
+          <li class="relative py-3 whitespace-nowrap">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Tìm
               hiểu</a>
           </li>
-          <li class="relative py-3">
+          <li class="relative py-3 whitespace-nowrap">
             <a href="###"
               class="text-gray-100 font-medium hover:after:w-full after:w-[0%] after:translate-x-[-50%] after:h-1 after:absolute after:-bottom-1.5 after:left-[50%] after:bg-white relative after:transition-all after:duration-75 after:ease-in-out">Hỗ
               trợ</a>
@@ -377,7 +377,7 @@
     </div>
     <div class="flex gap-5">
       <div
-        class="hover:bg-[#8853f7] w-12 h-12 rounded-full flex justify-center items-center text-white font-medium cursor-pointer">
+        class="hover:bg-[#8853f7] w-12 h-12 rounded-full justify-center items-center text-white font-medium cursor-pointer whitespace-nowrap hidden xl:flex">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
           class="ms-ds-0 me-ds-0 mt-ds-0 mb-ds-0 stroke-ds-icon w-ds-icon-md h-ds-icon-md">
           <path
@@ -385,15 +385,23 @@
             stroke-linecap="square" class="stroke-current stroke-2 fill-transparent"></path>
         </svg>
       </div>
-      <div>
+      <div class="hidden xl:flex">
         <a href="###"
-          class="hover:bg-[#8853f7] rounded-full flex justify-center items-center text-white font-medium px-7 py-3 border-white border-[1px]">Đăng
+          class="hover:bg-[#8853f7] rounded-full flex justify-center items-center text-white font-medium px-7 py-3 border-white border-[1px] whitespace-nowrap">Đăng
           nhập</a>
       </div>
       <div>
         <a href="###"
-          class="rounded-full flex justify-center items-center hover:bg-[#eee6fe] bg-white text-[#7132f5] font-medium px-7 py-3 border-current border-[1px]">Đăng
+          class="rounded-full flex justify-center items-center hover:bg-[#eee6fe] bg-white text-[#7132f5] font-medium px-7 py-3 border-current border-[1px] whitespace-nowrap">Đăng
           ký</a>
+      </div>
+      <div>
+        <button class="flex items-center justify-center h-full text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
+            class="size-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
