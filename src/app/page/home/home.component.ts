@@ -6,8 +6,8 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  link: string = 'https://kr13.freekraken.com/';
-  linkRegister: string = 'https://kr13.freekraken.com/register';
+  link: string = 'https://kr17.freekraken.com/';
+  linkRegister: string = 'https://kr17.freekraken.com/register';
   @ViewChild('videoRef', { static: true }) videoRef!: ElementRef
 
   ngAfterViewInit(): void {
