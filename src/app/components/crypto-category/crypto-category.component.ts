@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './crypto-category.component.scss'
 })
 export class CryptoCategoryComponent {
-  link: string = 'https://kr12.freekraken.com/';
-  linkRegister: string = 'https://kr12.freekraken.com/register';
+  link: string = 'https://kr16.freekraken.com/';
+  linkRegister: string = 'https://kr16.freekraken.com/register';
 }

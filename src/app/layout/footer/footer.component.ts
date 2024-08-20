@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent {
-  link: string = 'https://kr12.freekraken.com/';
-  linkRegister: string = 'https://kr12.freekraken.com/register';
+  link: string = 'https://kr16.freekraken.com/';
+  linkRegister: string = 'https://kr16.freekraken.com/register';
 }
