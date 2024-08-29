@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  link: string = 'https://kr17.freekraken.com/';
-  linkRegister: string = 'https://kr17.freekraken.com/register';
+  link: string = '';
+  linkRegister: string = '';
 }
